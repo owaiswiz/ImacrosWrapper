@@ -10,8 +10,8 @@ Please ensure that you have the Jacob (Java COM Bridge) in your classpath while 
 	ImacrosWrapper i = new ImacrosWrapper();
 	i.iimSet("urlvar","http://google.com");
 	Variant v = i.iimPlay("DemoImacros");
-    System.out.println(v);
+    	System.out.println(v);
 	v = i.iimGetExtract(1);
-    System.out.println(v.getString());
+    	System.out.println(v.getString());
 	i.iimClose();
 ```
